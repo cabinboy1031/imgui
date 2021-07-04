@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
 project(imgui)
 
+find_packages(GLEW REQUIRED)
+
 set(IMGUI_SOURCES
 "imgui.cpp"
 "imgui_demo.cpp"
@@ -18,3 +20,6 @@ set(IMGUI_HEADERS
 
 
 add_library(ImGui ${IMGUI_SOURCES} ${IMGUI_HEADERS})
+
+target_link_libraries(ImGui PRIVATE
+  ${GLEW_LIBRARIES})
