@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 project(imgui)
 
-find_packages(GLEW REQUIRED)
+find_package(GLEW REQUIRED)
 
 set(IMGUI_SOURCES
 "imgui.cpp"
