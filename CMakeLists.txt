@@ -5,7 +5,8 @@ set(IMGUI_SOURCES
 "imgui.cpp"
 "imgui_demo.cpp"
 "imgui_draw.cpp"
-"imgui_widgets.cpp")
+"imgui_widgets.cpp"
+"imgui_tables.cpp")
 
 set(IMGUI_HEADERS
 "imconfig.h"
