@@ -34,7 +34,7 @@ project (imgui)
 # by setting plain variables as opposed to cache variables as demonstrated in example.
 cmake_policy(SET CMP0077 NEW)
 
-option(IMGUI_EXAMPLES "Build ImGui examples" ON)
+option(IMGUI_EXAMPLES "Build ImGui examples" OFF)
 option(IMGUI_DEMO "Include the ImGui demo window implementation in library" ON)
 
 option(IMGUI_DISABLE_OBSOLETE_FUNCTIONS "Disable deprecated functions" ON)
